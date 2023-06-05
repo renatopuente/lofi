@@ -16,6 +16,65 @@
   text-decoration: none;
 }
 
+/*navbar*/
+
+.navbar {
+    position: fixed; /* Fija la posición */
+    z-index: 9999;
+    top: 0; /* Coloca la barra en la parte superior */
+    left: 0; /* Alinea la barra a la izquierda */
+    width: 100%; /* Ancho del 100% */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(161, 0, 225, 0.192);
+    backdrop-filter: blur(10px);
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo img {
+    height: 40px;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    padding-left: 16px;
+  }
+  
+  .menu li {
+    margin-right: 15px;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    position: relative;
+  }
+  
+  .menu li a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    bottom: -5px;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .menu li a:hover:before {
+    opacity: 1;
+  }
+
+  /*Main*/
+
 body {
     background-image: url(../images/bg1.jpg);
     background-size: cover;
