@@ -8,6 +8,8 @@ var formulario_login = document.querySelector(".formulario__login");
 var formulario_register = document.querySelector(".formulario__register");
 var caja_trasera_login = document.querySelector(".caja__trasera-login");
 var caja_trasera_register = document.querySelector(".caja__trasera-register");
+// Obtén el elemento de video por su id
+var video = document.getElementById("myVideo");
 
 function anchoPagina(){
     if(window.innerWidth > 850){
@@ -63,3 +65,7 @@ function register(){
     }
     
 }
+
+
+// Establece el volumen (un valor entre 0 y 1, siendo 0 el volumen mínimo y 1 el volumen máximo)
+video.volume = 0.02; // 50% de volumen
