@@ -178,6 +178,19 @@ main {
     display: none;
 }
 
+/*Footer*/
+
+.info {
+    margin-top: 20%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: larger;
+    color: #c4bcb5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
 /*Responsive Desing*/
 
 @media screen and (max-width: 850px) {
