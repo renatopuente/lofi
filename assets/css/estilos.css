@@ -47,6 +47,7 @@ main{
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     background-color: rgba(161, 0, 225, 0.192);
+    border-radius: 8px;
 }
 
 .caja__trasera div{
