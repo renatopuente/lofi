@@ -68,4 +68,4 @@ function register(){
 
 
 // Establece el volumen (un valor entre 0 y 1, siendo 0 el volumen mínimo y 1 el volumen máximo)
-video.volume = 0.02; // 50% de volumen
+video.volume = 0.1; // 50% de volumen
