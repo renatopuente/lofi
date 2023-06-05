@@ -62,14 +62,14 @@ main{
 
 .caja__trasera div h3{
     font-family: 'Hind', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 26px;
 }
 
 .caja__trasera div p{
     font-family: 'Amiko', sans-serif;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .caja__trasera button{
