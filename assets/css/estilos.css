@@ -61,7 +61,7 @@ main {
 
 .encabezado h1 {
     background-color: #2e075a94;
-    color: #ffffff;
+    color: #efdcff;
     margin: auto;
     padding-bottom: 0px;
     padding-top: 16px;
@@ -76,7 +76,7 @@ main {
 
 .encabezado h3 {
     background-color: #2e075a94;
-    color: rgb(214, 168, 254);
+    color: rgb(255, 255, 255);
     margin: auto;
     padding-bottom: 90px;
     display: flex;
