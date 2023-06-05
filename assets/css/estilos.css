@@ -6,6 +6,16 @@
     font-family: sans-serif;
 }
 
+* > a {
+  color: #9b5ccf;
+  text-decoration: none;
+}
+
+* > a:hover {
+  color: #d2b0ee;
+  text-decoration: none;
+}
+
 body {
     background-image: url(../images/bg1.jpg);
     background-size: cover;
