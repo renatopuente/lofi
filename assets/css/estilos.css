@@ -29,8 +29,8 @@
     align-items: center;
     background-color: rgba(161, 0, 225, 0.192);
     backdrop-filter: blur(10px);
-    padding-left: 30%;
-    padding-right: 30%;
+    padding-left: 10%;
+    padding-right: 10%;
     padding-top: 10px;
     padding-bottom: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -83,6 +83,14 @@
   }
 
   @media screen and (min-width: 768px) {
+
+    .navbar{
+        padding-left: 30%;
+        padding-right: 30%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
     .menu-toggle {
       display: none;
     }
