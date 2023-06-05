@@ -13,7 +13,7 @@ var video = document.getElementById("myVideo");
 
 
 // Establece el volumen (un valor entre 0 y 1, siendo 0 el volumen mínimo y 1 el volumen máximo)
-video.volume = 0.10; // 50% de volumen
+video.volume = 0.50; // 50% de volumen
 
 function anchoPagina(){
     if(window.innerWidth > 850){
