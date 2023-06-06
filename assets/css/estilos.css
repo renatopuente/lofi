@@ -7,12 +7,12 @@
 }
 
 * > a {
-  color: #9b5ccf;
+  color: #d2bee2;
   text-decoration: none;
 }
 
 * > a:hover {
-  color: #d2bee2;
+  color: #9b5ccf;
   text-decoration: none;
 }
 
