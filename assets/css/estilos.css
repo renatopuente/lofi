@@ -81,7 +81,7 @@
     opacity: 1;
   }
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1240px) {
 
     .navbar{
         padding-left: 30%;
@@ -193,7 +193,7 @@ main {
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     background-color: rgba(161, 0, 225, 0.192);
-    border-radius: 0px 0px 8px 8px;
+    border-radius: 0px 0px 20px 20px;
 }
 
 .caja__trasera div {
