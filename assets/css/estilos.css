@@ -92,8 +92,8 @@
     .navbar{
         padding-left: 28%;
         padding-right: 28%;
-        padding-top: 2px;
-        padding-bottom: 2px;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
     }
 
     .menu-toggle {
@@ -163,6 +163,27 @@ main {
     border-radius: 20px 20px 0px 0px;
 }
 
+@media screen and (min-width: 1240px) {
+
+  .encabezado {
+    position: relative;
+    background-image: url(../images/bg1.jpg);
+    background: #000;
+    color: #fff;
+    border-radius: 20px 20px 0px 0px;
+  }
+
+  .encabezado video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+  }
+}
+
 .encabezado h1 {
     background-color: #2e075a94;
     color: #efdcff;
@@ -191,6 +212,40 @@ main {
     mix-blend-mode: multiply;
     border-radius: 0px 0px 0px 0px;
 }
+
+@media screen and (max-width: 1240px){
+
+  .encabezado h1 {
+    background-color: #2e075a94;
+    color: #efdcff;
+    margin: auto;
+    padding-bottom: 0px;
+    padding-top: 16px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Hind', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    mix-blend-mode: multiply;
+    border-radius: 20px 20px 0px 0px;
+  }
+
+.encabezado h3 {
+    background-color: #2e075a94;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Martel', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    mix-blend-mode: multiply;
+    border-radius: 0px 0px 0px 0px;
+  }
+}
+
+
 
 .caja__trasera {
     width: 100%;
