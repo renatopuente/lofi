@@ -12,7 +12,7 @@
 }
 
 * > a:hover {
-  color: #d2b0ee;
+  color: #d2bee2;
   text-decoration: none;
 }
 
@@ -70,15 +70,20 @@
     position: absolute;
     width: 100%;
     height: 2px;
-    background-color: #fff;
+    background-color: #bf97e0;
     bottom: -5px;
     left: 0;
     opacity: 0;
-    transition: opacity 0.3s ease;
+    transition: opacity 0.8s ease;
   }
   
   .menu li a:hover:before {
     opacity: 1;
+  }
+
+  .menu li a:hover{
+    color: #bf97e0;
+    transition: all 600ms;
   }
 
   @media screen and (min-width: 1240px) {
